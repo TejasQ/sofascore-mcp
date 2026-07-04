@@ -13,7 +13,7 @@
         {
           "position": 1,
           "team": {
-            "id": 4801,
+            "id": 6000,
             "name": "Mexico",
             "shortName": "Mexico",
             "nameCode": "MEX",
@@ -36,13 +36,13 @@
         {
           "position": 2,
           "team": {
-            "id": 4802,
-            "name": "Croatia",
-            "shortName": "Croatia",
-            "nameCode": "CRO",
+            "id": 6001,
+            "name": "South Africa",
+            "shortName": "South Africa",
+            "nameCode": "RSA",
             "country": {
-              "alpha2": "hr",
-              "name": "Croatia"
+              "alpha2": "za",
+              "name": "South Africa"
             }
           },
           "matches": 3,
@@ -59,13 +59,13 @@
         {
           "position": 3,
           "team": {
-            "id": 4803,
-            "name": "Ecuador",
-            "shortName": "Ecuador",
-            "nameCode": "ECU",
+            "id": 6002,
+            "name": "South Korea",
+            "shortName": "South Korea",
+            "nameCode": "KOR",
             "country": {
-              "alpha2": "ec",
-              "name": "Ecuador"
+              "alpha2": "kr",
+              "name": "South Korea"
             }
           },
           "matches": 3,
@@ -79,13 +79,13 @@
         {
           "position": 4,
           "team": {
-            "id": 4804,
-            "name": "Saudi Arabia",
-            "shortName": "Saudi Arabia",
-            "nameCode": "KSA",
+            "id": 6003,
+            "name": "Czechia",
+            "shortName": "Czechia",
+            "nameCode": "CZE",
             "country": {
-              "alpha2": "sa",
-              "name": "Saudi Arabia"
+              "alpha2": "cz",
+              "name": "Czechia"
             }
           },
           "matches": 3,
@@ -111,13 +111,13 @@
         {
           "position": 1,
           "team": {
-            "id": 4805,
-            "name": "Argentina",
-            "shortName": "Argentina",
-            "nameCode": "ARG",
+            "id": 6004,
+            "name": "Canada",
+            "shortName": "Canada",
+            "nameCode": "CAN",
             "country": {
-              "alpha2": "ar",
-              "name": "Argentina"
+              "alpha2": "ca",
+              "name": "Canada"
             }
           },
           "matches": 3,
@@ -134,13 +134,13 @@
         {
           "position": 2,
           "team": {
-            "id": 4806,
-            "name": "Poland",
-            "shortName": "Poland",
-            "nameCode": "POL",
+            "id": 6005,
+            "name": "Switzerland",
+            "shortName": "Switzerland",
+            "nameCode": "SUI",
             "country": {
-              "alpha2": "pl",
-              "name": "Poland"
+              "alpha2": "ch",
+              "name": "Switzerland"
             }
           },
           "matches": 3,
@@ -157,13 +157,13 @@
         {
           "position": 3,
           "team": {
-            "id": 4807,
-            "name": "Australia",
-            "shortName": "Australia",
-            "nameCode": "AUS",
+            "id": 6007,
+            "name": "Bosnia & H.",
+            "shortName": "Bosnia & H.",
+            "nameCode": "BIH",
             "country": {
-              "alpha2": "au",
-              "name": "Australia"
+              "alpha2": "ba",
+              "name": "Bosnia & H."
             }
           },
           "matches": 3,
@@ -177,13 +177,13 @@
         {
           "position": 4,
           "team": {
-            "id": 4808,
-            "name": "Uzbekistan",
-            "shortName": "Uzbekistan",
-            "nameCode": "UZB",
+            "id": 6006,
+            "name": "Qatar",
+            "shortName": "Qatar",
+            "nameCode": "QAT",
             "country": {
-              "alpha2": "uz",
-              "name": "Uzbekistan"
+              "alpha2": "qa",
+              "name": "Qatar"
             }
           },
           "matches": 3,
@@ -209,13 +209,13 @@
         {
           "position": 1,
           "team": {
-            "id": 4809,
-            "name": "France",
-            "shortName": "France",
-            "nameCode": "FRA",
+            "id": 6008,
+            "name": "Brazil",
+            "shortName": "Brazil",
+            "nameCode": "BRA",
             "country": {
-              "alpha2": "fr",
-              "name": "France"
+              "alpha2": "br",
+              "name": "Brazil"
             }
           },
           "matches": 3,
@@ -232,13 +232,13 @@
         {
           "position": 2,
           "team": {
-            "id": 4810,
-            "name": "Denmark",
-            "shortName": "Denmark",
-            "nameCode": "DEN",
+            "id": 6009,
+            "name": "Morocco",
+            "shortName": "Morocco",
+            "nameCode": "MAR",
             "country": {
-              "alpha2": "dk",
-              "name": "Denmark"
+              "alpha2": "ma",
+              "name": "Morocco"
             }
           },
           "matches": 3,
@@ -255,13 +255,13 @@
         {
           "position": 3,
           "team": {
-            "id": 4811,
-            "name": "Ivory Coast",
-            "shortName": "Ivory Coast",
-            "nameCode": "CIV",
+            "id": 6010,
+            "name": "Scotland",
+            "shortName": "Scotland",
+            "nameCode": "SCO",
             "country": {
-              "alpha2": "ci",
-              "name": "Ivory Coast"
+              "alpha2": "gb-sct",
+              "name": "Scotland"
             }
           },
           "matches": 3,
@@ -275,13 +275,13 @@
         {
           "position": 4,
           "team": {
-            "id": 4812,
-            "name": "Panama",
-            "shortName": "Panama",
-            "nameCode": "PAN",
+            "id": 6011,
+            "name": "Haiti",
+            "shortName": "Haiti",
+            "nameCode": "HAI",
             "country": {
-              "alpha2": "pa",
-              "name": "Panama"
+              "alpha2": "ht",
+              "name": "Haiti"
             }
           },
           "matches": 3,
@@ -307,7 +307,7 @@
         {
           "position": 1,
           "team": {
-            "id": 4813,
+            "id": 6012,
             "name": "USA",
             "shortName": "USA",
             "nameCode": "USA",
@@ -330,13 +330,13 @@
         {
           "position": 2,
           "team": {
-            "id": 4814,
-            "name": "Serbia",
-            "shortName": "Serbia",
-            "nameCode": "SRB",
+            "id": 6015,
+            "name": "Türkiye",
+            "shortName": "Türkiye",
+            "nameCode": "TUR",
             "country": {
-              "alpha2": "rs",
-              "name": "Serbia"
+              "alpha2": "tr",
+              "name": "Türkiye"
             }
           },
           "matches": 3,
@@ -353,13 +353,13 @@
         {
           "position": 3,
           "team": {
-            "id": 4815,
-            "name": "Egypt",
-            "shortName": "Egypt",
-            "nameCode": "EGY",
+            "id": 6013,
+            "name": "Paraguay",
+            "shortName": "Paraguay",
+            "nameCode": "PAR",
             "country": {
-              "alpha2": "eg",
-              "name": "Egypt"
+              "alpha2": "py",
+              "name": "Paraguay"
             }
           },
           "matches": 3,
@@ -373,13 +373,13 @@
         {
           "position": 4,
           "team": {
-            "id": 4816,
-            "name": "New Zealand",
-            "shortName": "New Zealand",
-            "nameCode": "NZL",
+            "id": 6014,
+            "name": "Australia",
+            "shortName": "Australia",
+            "nameCode": "AUS",
             "country": {
-              "alpha2": "nz",
-              "name": "New Zealand"
+              "alpha2": "au",
+              "name": "Australia"
             }
           },
           "matches": 3,
@@ -405,13 +405,13 @@
         {
           "position": 1,
           "team": {
-            "id": 4817,
-            "name": "Spain",
-            "shortName": "Spain",
-            "nameCode": "ESP",
+            "id": 6016,
+            "name": "Germany",
+            "shortName": "Germany",
+            "nameCode": "GER",
             "country": {
-              "alpha2": "es",
-              "name": "Spain"
+              "alpha2": "de",
+              "name": "Germany"
             }
           },
           "matches": 3,
@@ -428,13 +428,13 @@
         {
           "position": 2,
           "team": {
-            "id": 4818,
-            "name": "Switzerland",
-            "shortName": "Switzerland",
-            "nameCode": "SUI",
+            "id": 6019,
+            "name": "Ecuador",
+            "shortName": "Ecuador",
+            "nameCode": "ECU",
             "country": {
-              "alpha2": "ch",
-              "name": "Switzerland"
+              "alpha2": "ec",
+              "name": "Ecuador"
             }
           },
           "matches": 3,
@@ -451,13 +451,13 @@
         {
           "position": 3,
           "team": {
-            "id": 4819,
-            "name": "Cameroon",
-            "shortName": "Cameroon",
-            "nameCode": "CMR",
+            "id": 6018,
+            "name": "Costa Rica",
+            "shortName": "Costa Rica",
+            "nameCode": "CRC",
             "country": {
-              "alpha2": "cm",
-              "name": "Cameroon"
+              "alpha2": "cr",
+              "name": "Costa Rica"
             }
           },
           "matches": 3,
@@ -471,13 +471,13 @@
         {
           "position": 4,
           "team": {
-            "id": 4820,
-            "name": "Jordan",
-            "shortName": "Jordan",
-            "nameCode": "JOR",
+            "id": 6017,
+            "name": "Curaçao",
+            "shortName": "Curaçao",
+            "nameCode": "CUW",
             "country": {
-              "alpha2": "jo",
-              "name": "Jordan"
+              "alpha2": "cw",
+              "name": "Curaçao"
             }
           },
           "matches": 3,
@@ -503,13 +503,13 @@
         {
           "position": 1,
           "team": {
-            "id": 4821,
-            "name": "Canada",
-            "shortName": "Canada",
-            "nameCode": "CAN",
+            "id": 6020,
+            "name": "Netherlands",
+            "shortName": "Netherlands",
+            "nameCode": "NED",
             "country": {
-              "alpha2": "ca",
-              "name": "Canada"
+              "alpha2": "nl",
+              "name": "Netherlands"
             }
           },
           "matches": 3,
@@ -526,13 +526,13 @@
         {
           "position": 2,
           "team": {
-            "id": 4822,
-            "name": "Uruguay",
-            "shortName": "Uruguay",
-            "nameCode": "URU",
+            "id": 6021,
+            "name": "Japan",
+            "shortName": "Japan",
+            "nameCode": "JPN",
             "country": {
-              "alpha2": "uy",
-              "name": "Uruguay"
+              "alpha2": "jp",
+              "name": "Japan"
             }
           },
           "matches": 3,
@@ -549,13 +549,13 @@
         {
           "position": 3,
           "team": {
-            "id": 4823,
-            "name": "Nigeria",
-            "shortName": "Nigeria",
-            "nameCode": "NGA",
+            "id": 6023,
+            "name": "Sweden",
+            "shortName": "Sweden",
+            "nameCode": "SWE",
             "country": {
-              "alpha2": "ng",
-              "name": "Nigeria"
+              "alpha2": "se",
+              "name": "Sweden"
             }
           },
           "matches": 3,
@@ -569,13 +569,13 @@
         {
           "position": 4,
           "team": {
-            "id": 4824,
-            "name": "Qatar",
-            "shortName": "Qatar",
-            "nameCode": "QAT",
+            "id": 6022,
+            "name": "Tunisia",
+            "shortName": "Tunisia",
+            "nameCode": "TUN",
             "country": {
-              "alpha2": "qa",
-              "name": "Qatar"
+              "alpha2": "tn",
+              "name": "Tunisia"
             }
           },
           "matches": 3,
@@ -601,13 +601,13 @@
         {
           "position": 1,
           "team": {
-            "id": 4825,
-            "name": "Brazil",
-            "shortName": "Brazil",
-            "nameCode": "BRA",
+            "id": 6024,
+            "name": "Belgium",
+            "shortName": "Belgium",
+            "nameCode": "BEL",
             "country": {
-              "alpha2": "br",
-              "name": "Brazil"
+              "alpha2": "be",
+              "name": "Belgium"
             }
           },
           "matches": 3,
@@ -624,13 +624,13 @@
         {
           "position": 2,
           "team": {
-            "id": 4826,
-            "name": "Morocco",
-            "shortName": "Morocco",
-            "nameCode": "MAR",
+            "id": 6025,
+            "name": "Egypt",
+            "shortName": "Egypt",
+            "nameCode": "EGY",
             "country": {
-              "alpha2": "ma",
-              "name": "Morocco"
+              "alpha2": "eg",
+              "name": "Egypt"
             }
           },
           "matches": 3,
@@ -647,13 +647,13 @@
         {
           "position": 3,
           "team": {
-            "id": 4827,
-            "name": "Japan",
-            "shortName": "Japan",
-            "nameCode": "JPN",
+            "id": 6026,
+            "name": "Iran",
+            "shortName": "Iran",
+            "nameCode": "IRN",
             "country": {
-              "alpha2": "jp",
-              "name": "Japan"
+              "alpha2": "ir",
+              "name": "Iran"
             }
           },
           "matches": 3,
@@ -667,13 +667,13 @@
         {
           "position": 4,
           "team": {
-            "id": 4828,
-            "name": "Norway",
-            "shortName": "Norway",
-            "nameCode": "NOR",
+            "id": 6027,
+            "name": "New Zealand",
+            "shortName": "New Zealand",
+            "nameCode": "NZL",
             "country": {
-              "alpha2": "no",
-              "name": "Norway"
+              "alpha2": "nz",
+              "name": "New Zealand"
             }
           },
           "matches": 3,
@@ -699,13 +699,13 @@
         {
           "position": 1,
           "team": {
-            "id": 4829,
-            "name": "England",
-            "shortName": "England",
-            "nameCode": "ENG",
+            "id": 6028,
+            "name": "Spain",
+            "shortName": "Spain",
+            "nameCode": "ESP",
             "country": {
-              "alpha2": "gb",
-              "name": "England"
+              "alpha2": "es",
+              "name": "Spain"
             }
           },
           "matches": 3,
@@ -722,13 +722,13 @@
         {
           "position": 2,
           "team": {
-            "id": 4830,
-            "name": "Netherlands",
-            "shortName": "Netherlands",
-            "nameCode": "NED",
+            "id": 6031,
+            "name": "Uruguay",
+            "shortName": "Uruguay",
+            "nameCode": "URU",
             "country": {
-              "alpha2": "nl",
-              "name": "Netherlands"
+              "alpha2": "uy",
+              "name": "Uruguay"
             }
           },
           "matches": 3,
@@ -745,13 +745,13 @@
         {
           "position": 3,
           "team": {
-            "id": 4831,
-            "name": "Ghana",
-            "shortName": "Ghana",
-            "nameCode": "GHA",
+            "id": 6029,
+            "name": "Cape Verde",
+            "shortName": "Cape Verde",
+            "nameCode": "CPV",
             "country": {
-              "alpha2": "gh",
-              "name": "Ghana"
+              "alpha2": "cv",
+              "name": "Cape Verde"
             }
           },
           "matches": 3,
@@ -765,13 +765,13 @@
         {
           "position": 4,
           "team": {
-            "id": 4832,
-            "name": "Curacao",
-            "shortName": "Curacao",
-            "nameCode": "CUW",
+            "id": 6030,
+            "name": "Saudi Arabia",
+            "shortName": "Saudi Arabia",
+            "nameCode": "KSA",
             "country": {
-              "alpha2": "cw",
-              "name": "Curacao"
+              "alpha2": "sa",
+              "name": "Saudi Arabia"
             }
           },
           "matches": 3,
@@ -797,13 +797,13 @@
         {
           "position": 1,
           "team": {
-            "id": 4833,
-            "name": "Portugal",
-            "shortName": "Portugal",
-            "nameCode": "POR",
+            "id": 6032,
+            "name": "France",
+            "shortName": "France",
+            "nameCode": "FRA",
             "country": {
-              "alpha2": "pt",
-              "name": "Portugal"
+              "alpha2": "fr",
+              "name": "France"
             }
           },
           "matches": 3,
@@ -820,13 +820,13 @@
         {
           "position": 2,
           "team": {
-            "id": 4834,
-            "name": "Colombia",
-            "shortName": "Colombia",
-            "nameCode": "COL",
+            "id": 6033,
+            "name": "Senegal",
+            "shortName": "Senegal",
+            "nameCode": "SEN",
             "country": {
-              "alpha2": "co",
-              "name": "Colombia"
+              "alpha2": "sn",
+              "name": "Senegal"
             }
           },
           "matches": 3,
@@ -843,13 +843,13 @@
         {
           "position": 3,
           "team": {
-            "id": 4835,
-            "name": "South Korea",
-            "shortName": "South Korea",
-            "nameCode": "KOR",
+            "id": 6034,
+            "name": "Norway",
+            "shortName": "Norway",
+            "nameCode": "NOR",
             "country": {
-              "alpha2": "kr",
-              "name": "South Korea"
+              "alpha2": "no",
+              "name": "Norway"
             }
           },
           "matches": 3,
@@ -863,13 +863,13 @@
         {
           "position": 4,
           "team": {
-            "id": 4836,
-            "name": "Costa Rica",
-            "shortName": "Costa Rica",
-            "nameCode": "CRC",
+            "id": 6035,
+            "name": "Iraq",
+            "shortName": "Iraq",
+            "nameCode": "IRQ",
             "country": {
-              "alpha2": "cr",
-              "name": "Costa Rica"
+              "alpha2": "iq",
+              "name": "Iraq"
             }
           },
           "matches": 3,
@@ -895,13 +895,13 @@
         {
           "position": 1,
           "team": {
-            "id": 4837,
-            "name": "Germany",
-            "shortName": "Germany",
-            "nameCode": "GER",
+            "id": 6036,
+            "name": "Argentina",
+            "shortName": "Argentina",
+            "nameCode": "ARG",
             "country": {
-              "alpha2": "de",
-              "name": "Germany"
+              "alpha2": "ar",
+              "name": "Argentina"
             }
           },
           "matches": 3,
@@ -918,13 +918,13 @@
         {
           "position": 2,
           "team": {
-            "id": 4838,
-            "name": "Senegal",
-            "shortName": "Senegal",
-            "nameCode": "SEN",
+            "id": 6038,
+            "name": "Austria",
+            "shortName": "Austria",
+            "nameCode": "AUT",
             "country": {
-              "alpha2": "sn",
-              "name": "Senegal"
+              "alpha2": "at",
+              "name": "Austria"
             }
           },
           "matches": 3,
@@ -941,13 +941,13 @@
         {
           "position": 3,
           "team": {
-            "id": 4839,
-            "name": "Iran",
-            "shortName": "Iran",
-            "nameCode": "IRN",
+            "id": 6037,
+            "name": "Algeria",
+            "shortName": "Algeria",
+            "nameCode": "ALG",
             "country": {
-              "alpha2": "ir",
-              "name": "Iran"
+              "alpha2": "dz",
+              "name": "Algeria"
             }
           },
           "matches": 3,
@@ -961,13 +961,13 @@
         {
           "position": 4,
           "team": {
-            "id": 4840,
-            "name": "Honduras",
-            "shortName": "Honduras",
-            "nameCode": "HON",
+            "id": 6039,
+            "name": "Jordan",
+            "shortName": "Jordan",
+            "nameCode": "JOR",
             "country": {
-              "alpha2": "hn",
-              "name": "Honduras"
+              "alpha2": "jo",
+              "name": "Jordan"
             }
           },
           "matches": 3,
@@ -993,13 +993,13 @@
         {
           "position": 1,
           "team": {
-            "id": 4841,
-            "name": "Paraguay",
-            "shortName": "Paraguay",
-            "nameCode": "PAR",
+            "id": 6040,
+            "name": "Portugal",
+            "shortName": "Portugal",
+            "nameCode": "POR",
             "country": {
-              "alpha2": "py",
-              "name": "Paraguay"
+              "alpha2": "pt",
+              "name": "Portugal"
             }
           },
           "matches": 3,
@@ -1016,13 +1016,13 @@
         {
           "position": 2,
           "team": {
-            "id": 4842,
-            "name": "Austria",
-            "shortName": "Austria",
-            "nameCode": "AUT",
+            "id": 6041,
+            "name": "Colombia",
+            "shortName": "Colombia",
+            "nameCode": "COL",
             "country": {
-              "alpha2": "at",
-              "name": "Austria"
+              "alpha2": "co",
+              "name": "Colombia"
             }
           },
           "matches": 3,
@@ -1039,13 +1039,13 @@
         {
           "position": 3,
           "team": {
-            "id": 4843,
-            "name": "Algeria",
-            "shortName": "Algeria",
-            "nameCode": "ALG",
+            "id": 6042,
+            "name": "Uzbekistan",
+            "shortName": "Uzbekistan",
+            "nameCode": "UZB",
             "country": {
-              "alpha2": "dz",
-              "name": "Algeria"
+              "alpha2": "uz",
+              "name": "Uzbekistan"
             }
           },
           "matches": 3,
@@ -1059,13 +1059,13 @@
         {
           "position": 4,
           "team": {
-            "id": 4844,
-            "name": "Haiti",
-            "shortName": "Haiti",
-            "nameCode": "HAI",
+            "id": 6043,
+            "name": "DR Congo",
+            "shortName": "DR Congo",
+            "nameCode": "COD",
             "country": {
-              "alpha2": "ht",
-              "name": "Haiti"
+              "alpha2": "cd",
+              "name": "DR Congo"
             }
           },
           "matches": 3,
@@ -1091,13 +1091,13 @@
         {
           "position": 1,
           "team": {
-            "id": 4845,
-            "name": "Belgium",
-            "shortName": "Belgium",
-            "nameCode": "BEL",
+            "id": 6044,
+            "name": "England",
+            "shortName": "England",
+            "nameCode": "ENG",
             "country": {
-              "alpha2": "be",
-              "name": "Belgium"
+              "alpha2": "gb-eng",
+              "name": "England"
             }
           },
           "matches": 3,
@@ -1114,13 +1114,13 @@
         {
           "position": 2,
           "team": {
-            "id": 4846,
-            "name": "Tunisia",
-            "shortName": "Tunisia",
-            "nameCode": "TUN",
+            "id": 6045,
+            "name": "Croatia",
+            "shortName": "Croatia",
+            "nameCode": "CRO",
             "country": {
-              "alpha2": "tn",
-              "name": "Tunisia"
+              "alpha2": "hr",
+              "name": "Croatia"
             }
           },
           "matches": 3,
@@ -1137,13 +1137,13 @@
         {
           "position": 3,
           "team": {
-            "id": 4847,
-            "name": "South Africa",
-            "shortName": "South Africa",
-            "nameCode": "RSA",
+            "id": 6046,
+            "name": "Ghana",
+            "shortName": "Ghana",
+            "nameCode": "GHA",
             "country": {
-              "alpha2": "za",
-              "name": "South Africa"
+              "alpha2": "gh",
+              "name": "Ghana"
             }
           },
           "matches": 3,
@@ -1157,13 +1157,13 @@
         {
           "position": 4,
           "team": {
-            "id": 4848,
-            "name": "Cape Verde",
-            "shortName": "Cape Verde",
-            "nameCode": "CPV",
+            "id": 6047,
+            "name": "Panama",
+            "shortName": "Panama",
+            "nameCode": "PAN",
             "country": {
-              "alpha2": "cv",
-              "name": "Cape Verde"
+              "alpha2": "pa",
+              "name": "Panama"
             }
           },
           "matches": 3,

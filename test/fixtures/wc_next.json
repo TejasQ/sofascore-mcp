@@ -20,19 +20,23 @@
       },
       "startTimestamp": 1784644200,
       "homeTeam": {
-        "id": 6002,
+        "id": 6008,
         "name": "Brazil",
+        "shortName": "Brazil",
         "nameCode": "BRA",
         "country": {
-          "alpha2": "br"
+          "alpha2": "br",
+          "name": "Brazil"
         }
       },
       "awayTeam": {
-        "id": 6003,
+        "id": 6032,
         "name": "France",
+        "shortName": "France",
         "nameCode": "FRA",
         "country": {
-          "alpha2": "fr"
+          "alpha2": "fr",
+          "name": "France"
         }
       },
       "homeScore": {},

@@ -20,19 +20,23 @@
     },
     "startTimestamp": 1784730600,
     "homeTeam": {
-      "id": 6000,
+      "id": 6036,
       "name": "Argentina",
+      "shortName": "Argentina",
       "nameCode": "ARG",
       "country": {
-        "alpha2": "ar"
+        "alpha2": "ar",
+        "name": "Argentina"
       }
     },
     "awayTeam": {
-      "id": 6001,
+      "id": 6028,
       "name": "Spain",
+      "shortName": "Spain",
       "nameCode": "ESP",
       "country": {
-        "alpha2": "es"
+        "alpha2": "es",
+        "name": "Spain"
       }
     },
     "homeScore": {

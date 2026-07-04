@@ -21,19 +21,23 @@
       },
       "startTimestamp": 1784730600,
       "homeTeam": {
-        "id": 6000,
+        "id": 6036,
         "name": "Argentina",
+        "shortName": "Argentina",
         "nameCode": "ARG",
         "country": {
-          "alpha2": "ar"
+          "alpha2": "ar",
+          "name": "Argentina"
         }
       },
       "awayTeam": {
-        "id": 6001,
+        "id": 6028,
         "name": "Spain",
+        "shortName": "Spain",
         "nameCode": "ESP",
         "country": {
-          "alpha2": "es"
+          "alpha2": "es",
+          "name": "Spain"
         }
       },
       "homeScore": {
@@ -57,13 +61,13 @@
       },
       "status": {
         "type": "inprogress",
-        "description": "1st half"
+        "description": "2nd half"
       },
       "startTimestamp": 1784727000,
       "homeTeam": {
         "id": 63328,
         "name": "Inter Miami",
-        "nameCode": "MIA",
+        "nameCode": "INT",
         "country": {
           "alpha2": "us"
         }
@@ -71,7 +75,7 @@
       "awayTeam": {
         "id": 61634,
         "name": "LA Galaxy",
-        "nameCode": "LAG",
+        "nameCode": "LA ",
         "country": {
           "alpha2": "us"
         }

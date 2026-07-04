@@ -8,7 +8,13 @@ It's an MCP server (Streamable HTTP) whose tools each render a React widget
 inside ChatGPT via the `openai/outputTemplate` + `text/html+skybridge` pattern.
 Data comes from SofaScore's public JSON API.
 
-![World Cup hub](.artifacts/shots/worldcup__overview--dark.png)
+![World Cup hub](docs/worldcup-hub.png)
+
+<p>
+  <img src="docs/match-detail.png" width="32%" alt="Match detail" />
+  <img src="docs/knockout-bracket.png" width="32%" alt="Knockout bracket" />
+  <img src="docs/standings-light.png" width="32%" alt="Standings (light theme)" />
+</p>
 
 ## What it does
 

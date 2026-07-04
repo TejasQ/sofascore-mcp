@@ -20,19 +20,23 @@
       },
       "startTimestamp": 1784007200,
       "homeTeam": {
-        "id": 6000,
+        "id": 6036,
         "name": "Argentina",
+        "shortName": "Argentina",
         "nameCode": "ARG",
         "country": {
-          "alpha2": "ar"
+          "alpha2": "ar",
+          "name": "Argentina"
         }
       },
       "awayTeam": {
-        "id": 6015,
-        "name": "Curacao",
+        "id": 6017,
+        "name": "Curaçao",
+        "shortName": "Curaçao",
         "nameCode": "CUW",
         "country": {
-          "alpha2": "cw"
+          "alpha2": "cw",
+          "name": "Curaçao"
         }
       },
       "homeScore": {
@@ -62,19 +66,23 @@
       },
       "startTimestamp": 1784014400,
       "homeTeam": {
-        "id": 6001,
+        "id": 6028,
         "name": "Spain",
+        "shortName": "Spain",
         "nameCode": "ESP",
         "country": {
-          "alpha2": "es"
+          "alpha2": "es",
+          "name": "Spain"
         }
       },
       "awayTeam": {
-        "id": 6012,
+        "id": 6045,
         "name": "Croatia",
+        "shortName": "Croatia",
         "nameCode": "CRO",
         "country": {
-          "alpha2": "hr"
+          "alpha2": "hr",
+          "name": "Croatia"
         }
       },
       "homeScore": {
@@ -104,19 +112,23 @@
       },
       "startTimestamp": 1784021600,
       "homeTeam": {
-        "id": 6002,
+        "id": 6008,
         "name": "Brazil",
+        "shortName": "Brazil",
         "nameCode": "BRA",
         "country": {
-          "alpha2": "br"
+          "alpha2": "br",
+          "name": "Brazil"
         }
       },
       "awayTeam": {
-        "id": 6013,
+        "id": 6034,
         "name": "Norway",
+        "shortName": "Norway",
         "nameCode": "NOR",
         "country": {
-          "alpha2": "no"
+          "alpha2": "no",
+          "name": "Norway"
         }
       },
       "homeScore": {
@@ -146,19 +158,23 @@
       },
       "startTimestamp": 1784028800,
       "homeTeam": {
-        "id": 6003,
+        "id": 6032,
         "name": "France",
+        "shortName": "France",
         "nameCode": "FRA",
         "country": {
-          "alpha2": "fr"
+          "alpha2": "fr",
+          "name": "France"
         }
       },
       "awayTeam": {
-        "id": 6014,
-        "name": "Senegal",
-        "nameCode": "SEN",
+        "id": 6023,
+        "name": "Sweden",
+        "shortName": "Sweden",
+        "nameCode": "SWE",
         "country": {
-          "alpha2": "sn"
+          "alpha2": "se",
+          "name": "Sweden"
         }
       },
       "homeScore": {
@@ -188,19 +204,23 @@
       },
       "startTimestamp": 1784036000,
       "homeTeam": {
-        "id": 6000,
+        "id": 6036,
         "name": "Argentina",
+        "shortName": "Argentina",
         "nameCode": "ARG",
         "country": {
-          "alpha2": "ar"
+          "alpha2": "ar",
+          "name": "Argentina"
         }
       },
       "awayTeam": {
-        "id": 6008,
+        "id": 6009,
         "name": "Morocco",
+        "shortName": "Morocco",
         "nameCode": "MAR",
         "country": {
-          "alpha2": "ma"
+          "alpha2": "ma",
+          "name": "Morocco"
         }
       },
       "homeScore": {
@@ -230,19 +250,23 @@
       },
       "startTimestamp": 1784043200,
       "homeTeam": {
-        "id": 6001,
+        "id": 6028,
         "name": "Spain",
+        "shortName": "Spain",
         "nameCode": "ESP",
         "country": {
-          "alpha2": "es"
+          "alpha2": "es",
+          "name": "Spain"
         }
       },
       "awayTeam": {
-        "id": 6011,
+        "id": 6021,
         "name": "Japan",
+        "shortName": "Japan",
         "nameCode": "JPN",
         "country": {
-          "alpha2": "jp"
+          "alpha2": "jp",
+          "name": "Japan"
         }
       },
       "homeScore": {
@@ -272,19 +296,23 @@
       },
       "startTimestamp": 1784050400,
       "homeTeam": {
-        "id": 6002,
+        "id": 6008,
         "name": "Brazil",
+        "shortName": "Brazil",
         "nameCode": "BRA",
         "country": {
-          "alpha2": "br"
+          "alpha2": "br",
+          "name": "Brazil"
         }
       },
       "awayTeam": {
-        "id": 6010,
+        "id": 6031,
         "name": "Uruguay",
+        "shortName": "Uruguay",
         "nameCode": "URU",
         "country": {
-          "alpha2": "uy"
+          "alpha2": "uy",
+          "name": "Uruguay"
         }
       },
       "homeScore": {
@@ -314,19 +342,23 @@
       },
       "startTimestamp": 1784057600,
       "homeTeam": {
-        "id": 6003,
+        "id": 6032,
         "name": "France",
+        "shortName": "France",
         "nameCode": "FRA",
         "country": {
-          "alpha2": "fr"
+          "alpha2": "fr",
+          "name": "France"
         }
       },
       "awayTeam": {
-        "id": 6007,
+        "id": 6020,
         "name": "Netherlands",
+        "shortName": "Netherlands",
         "nameCode": "NED",
         "country": {
-          "alpha2": "nl"
+          "alpha2": "nl",
+          "name": "Netherlands"
         }
       },
       "homeScore": {
@@ -356,19 +388,23 @@
       },
       "startTimestamp": 1784064800,
       "homeTeam": {
-        "id": 6000,
+        "id": 6036,
         "name": "Argentina",
+        "shortName": "Argentina",
         "nameCode": "ARG",
         "country": {
-          "alpha2": "ar"
+          "alpha2": "ar",
+          "name": "Argentina"
         }
       },
       "awayTeam": {
-        "id": 6004,
+        "id": 6016,
         "name": "Germany",
+        "shortName": "Germany",
         "nameCode": "GER",
         "country": {
-          "alpha2": "de"
+          "alpha2": "de",
+          "name": "Germany"
         }
       },
       "homeScore": {
@@ -398,19 +434,23 @@
       },
       "startTimestamp": 1784072000,
       "homeTeam": {
-        "id": 6001,
+        "id": 6028,
         "name": "Spain",
+        "shortName": "Spain",
         "nameCode": "ESP",
         "country": {
-          "alpha2": "es"
+          "alpha2": "es",
+          "name": "Spain"
         }
       },
       "awayTeam": {
-        "id": 6005,
+        "id": 6044,
         "name": "England",
+        "shortName": "England",
         "nameCode": "ENG",
         "country": {
-          "alpha2": "gb"
+          "alpha2": "gb-eng",
+          "name": "England"
         }
       },
       "homeScore": {
@@ -440,19 +480,23 @@
       },
       "startTimestamp": 1784079200,
       "homeTeam": {
-        "id": 6002,
+        "id": 6008,
         "name": "Brazil",
+        "shortName": "Brazil",
         "nameCode": "BRA",
         "country": {
-          "alpha2": "br"
+          "alpha2": "br",
+          "name": "Brazil"
         }
       },
       "awayTeam": {
-        "id": 6009,
+        "id": 6041,
         "name": "Colombia",
+        "shortName": "Colombia",
         "nameCode": "COL",
         "country": {
-          "alpha2": "co"
+          "alpha2": "co",
+          "name": "Colombia"
         }
       },
       "homeScore": {
@@ -482,19 +526,23 @@
       },
       "startTimestamp": 1784086400,
       "homeTeam": {
-        "id": 6003,
+        "id": 6032,
         "name": "France",
+        "shortName": "France",
         "nameCode": "FRA",
         "country": {
-          "alpha2": "fr"
+          "alpha2": "fr",
+          "name": "France"
         }
       },
       "awayTeam": {
-        "id": 6006,
+        "id": 6040,
         "name": "Portugal",
+        "shortName": "Portugal",
         "nameCode": "POR",
         "country": {
-          "alpha2": "pt"
+          "alpha2": "pt",
+          "name": "Portugal"
         }
       },
       "homeScore": {
@@ -524,19 +572,23 @@
       },
       "startTimestamp": 1784093600,
       "homeTeam": {
-        "id": 6000,
+        "id": 6036,
         "name": "Argentina",
+        "shortName": "Argentina",
         "nameCode": "ARG",
         "country": {
-          "alpha2": "ar"
+          "alpha2": "ar",
+          "name": "Argentina"
         }
       },
       "awayTeam": {
-        "id": 6002,
+        "id": 6008,
         "name": "Brazil",
+        "shortName": "Brazil",
         "nameCode": "BRA",
         "country": {
-          "alpha2": "br"
+          "alpha2": "br",
+          "name": "Brazil"
         }
       },
       "homeScore": {
@@ -566,19 +618,23 @@
       },
       "startTimestamp": 1784100800,
       "homeTeam": {
-        "id": 6001,
+        "id": 6028,
         "name": "Spain",
+        "shortName": "Spain",
         "nameCode": "ESP",
         "country": {
-          "alpha2": "es"
+          "alpha2": "es",
+          "name": "Spain"
         }
       },
       "awayTeam": {
-        "id": 6003,
+        "id": 6032,
         "name": "France",
+        "shortName": "France",
         "nameCode": "FRA",
         "country": {
-          "alpha2": "fr"
+          "alpha2": "fr",
+          "name": "France"
         }
       },
       "homeScore": {
@@ -609,19 +665,23 @@
       },
       "startTimestamp": 1784730600,
       "homeTeam": {
-        "id": 6000,
+        "id": 6036,
         "name": "Argentina",
+        "shortName": "Argentina",
         "nameCode": "ARG",
         "country": {
-          "alpha2": "ar"
+          "alpha2": "ar",
+          "name": "Argentina"
         }
       },
       "awayTeam": {
-        "id": 6001,
+        "id": 6028,
         "name": "Spain",
+        "shortName": "Spain",
         "nameCode": "ESP",
         "country": {
-          "alpha2": "es"
+          "alpha2": "es",
+          "name": "Spain"
         }
       },
       "homeScore": {
