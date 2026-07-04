@@ -1,0 +1,9 @@
+{
+  "results": [
+    { "type": "team", "entity": { "id": 4819, "name": "Argentina", "gender": "M", "sport": { "name": "Football" }, "country": { "alpha2": "AR", "name": "Argentina" }, "national": true } },
+    { "type": "uniqueTournament", "entity": { "id": 16, "name": "FIFA World Cup", "category": { "name": "World" } } },
+    { "type": "player", "entity": { "id": 12994, "name": "Lionel Messi", "team": { "id": 63328, "name": "Inter Miami" }, "country": { "alpha2": "AR", "name": "Argentina" } } },
+    { "type": "manager", "entity": { "id": 794070, "name": "Lionel Scaloni", "team": { "id": 4819, "name": "Argentina" } } },
+    { "type": "team", "entity": { "id": 63328, "name": "Inter Miami", "sport": { "name": "Football" }, "country": { "alpha2": "US", "name": "USA" } } }
+  ]
+}

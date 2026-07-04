@@ -1,0 +1,7 @@
+{
+  "seasons": [
+    { "id": 72000, "year": "2026", "name": "World Cup 2026" },
+    { "id": 41955, "year": "2022", "name": "World Cup 2022" },
+    { "id": 15801, "year": "2018", "name": "World Cup 2018" }
+  ]
+}

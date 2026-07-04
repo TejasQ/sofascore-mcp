@@ -1,0 +1,12 @@
+{
+  "incidents": [
+    { "incidentType": "goal", "incidentClass": "regular", "isHome": true, "time": 23, "player": { "name": "L. Messi" }, "assist1": { "name": "J. Álvarez" }, "homeScore": 1, "awayScore": 0 },
+    { "incidentType": "card", "incidentClass": "yellow", "isHome": false, "time": 38, "player": { "name": "Rodri" }, "text": "Foul" },
+    { "incidentType": "period", "time": 45, "text": "HT" },
+    { "incidentType": "goal", "incidentClass": "penalty", "isHome": false, "time": 58, "player": { "name": "L. Yamal" }, "homeScore": 1, "awayScore": 1 },
+    { "incidentType": "goal", "incidentClass": "regular", "isHome": false, "time": 64, "player": { "name": "M. Oyarzabal" }, "assist1": { "name": "N. Williams" }, "homeScore": 1, "awayScore": 2 },
+    { "incidentType": "substitution", "isHome": true, "time": 66, "playerIn": { "name": "P. Dybala" }, "playerOut": { "name": "Á. Di María" } },
+    { "incidentType": "goal", "incidentClass": "regular", "isHome": true, "time": 71, "player": { "name": "J. Álvarez" }, "assist1": { "name": "L. Messi" }, "homeScore": 2, "awayScore": 2 },
+    { "incidentType": "card", "incidentClass": "yellow", "isHome": true, "time": 79, "player": { "name": "R. De Paul" }, "text": "Foul" }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "events": [
+    {
+      "id": 12000000,
+      "tournament": {
+        "name": "World Cup, Final",
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        },
+        "category": {
+          "name": "World"
+        }
+      },
+      "roundInfo": {
+        "name": "Final"
+      },
+      "status": {
+        "type": "inprogress",
+        "description": "2nd half"
+      },
+      "startTimestamp": 1784730600,
+      "homeTeam": {
+        "id": 6000,
+        "name": "Argentina",
+        "nameCode": "ARG",
+        "country": {
+          "alpha2": "ar"
+        }
+      },
+      "awayTeam": {
+        "id": 6001,
+        "name": "Spain",
+        "nameCode": "ESP",
+        "country": {
+          "alpha2": "es"
+        }
+      },
+      "homeScore": {
+        "current": 2
+      },
+      "awayScore": {
+        "current": 2
+      }
+    },
+    {
+      "id": 13000001,
+      "tournament": {
+        "name": "Major League Soccer",
+        "uniqueTournament": {
+          "id": 242,
+          "name": "MLS"
+        },
+        "category": {
+          "name": "USA"
+        }
+      },
+      "status": {
+        "type": "inprogress",
+        "description": "1st half"
+      },
+      "startTimestamp": 1784727000,
+      "homeTeam": {
+        "id": 63328,
+        "name": "Inter Miami",
+        "nameCode": "MIA",
+        "country": {
+          "alpha2": "us"
+        }
+      },
+      "awayTeam": {
+        "id": 61634,
+        "name": "LA Galaxy",
+        "nameCode": "LAG",
+        "country": {
+          "alpha2": "us"
+        }
+      },
+      "homeScore": {
+        "current": 1
+      },
+      "awayScore": {
+        "current": 0
+      }
+    },
+    {
+      "id": 13000002,
+      "tournament": {
+        "name": "Major League Soccer",
+        "uniqueTournament": {
+          "id": 242,
+          "name": "MLS"
+        },
+        "category": {
+          "name": "USA"
+        }
+      },
+      "status": {
+        "type": "inprogress",
+        "description": "2nd half"
+      },
+      "startTimestamp": 1784723400,
+      "homeTeam": {
+        "id": 61428,
+        "name": "Seattle Sounders",
+        "nameCode": "SEA",
+        "country": {
+          "alpha2": "us"
+        }
+      },
+      "awayTeam": {
+        "id": 61630,
+        "name": "Portland Timbers",
+        "nameCode": "POR",
+        "country": {
+          "alpha2": "us"
+        }
+      },
+      "homeScore": {
+        "current": 2
+      },
+      "awayScore": {
+        "current": 2
+      }
+    }
+  ]
+}

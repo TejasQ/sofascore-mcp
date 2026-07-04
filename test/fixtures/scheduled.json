@@ -1,0 +1,161 @@
+{
+  "events": [
+    {
+      "id": 12000000,
+      "tournament": {
+        "name": "World Cup, Final",
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        },
+        "category": {
+          "name": "World"
+        }
+      },
+      "roundInfo": {
+        "name": "Final"
+      },
+      "status": {
+        "type": "inprogress",
+        "description": "2nd half"
+      },
+      "startTimestamp": 1784730600,
+      "homeTeam": {
+        "id": 6000,
+        "name": "Argentina",
+        "nameCode": "ARG",
+        "country": {
+          "alpha2": "ar"
+        }
+      },
+      "awayTeam": {
+        "id": 6001,
+        "name": "Spain",
+        "nameCode": "ESP",
+        "country": {
+          "alpha2": "es"
+        }
+      },
+      "homeScore": {
+        "current": 2
+      },
+      "awayScore": {
+        "current": 2
+      }
+    },
+    {
+      "id": 12000115,
+      "tournament": {
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        },
+        "category": {
+          "name": "World"
+        }
+      },
+      "roundInfo": {
+        "name": "Match for 3rd place"
+      },
+      "status": {
+        "type": "notstarted",
+        "description": "Not started"
+      },
+      "startTimestamp": 1784644200,
+      "homeTeam": {
+        "id": 6002,
+        "name": "Brazil",
+        "nameCode": "BRA",
+        "country": {
+          "alpha2": "br"
+        }
+      },
+      "awayTeam": {
+        "id": 6003,
+        "name": "France",
+        "nameCode": "FRA",
+        "country": {
+          "alpha2": "fr"
+        }
+      },
+      "homeScore": {},
+      "awayScore": {}
+    },
+    {
+      "id": 13000001,
+      "tournament": {
+        "name": "Major League Soccer",
+        "uniqueTournament": {
+          "id": 242,
+          "name": "MLS"
+        },
+        "category": {
+          "name": "USA"
+        }
+      },
+      "status": {
+        "type": "inprogress",
+        "description": "1st half"
+      },
+      "startTimestamp": 1784727000,
+      "homeTeam": {
+        "id": 63328,
+        "name": "Inter Miami",
+        "nameCode": "MIA",
+        "country": {
+          "alpha2": "us"
+        }
+      },
+      "awayTeam": {
+        "id": 61634,
+        "name": "LA Galaxy",
+        "nameCode": "LAG",
+        "country": {
+          "alpha2": "us"
+        }
+      },
+      "homeScore": {
+        "current": 1
+      },
+      "awayScore": {
+        "current": 0
+      }
+    },
+    {
+      "id": 13000003,
+      "tournament": {
+        "name": "Major League Soccer",
+        "uniqueTournament": {
+          "id": 242,
+          "name": "MLS"
+        },
+        "category": {
+          "name": "USA"
+        }
+      },
+      "status": {
+        "type": "notstarted",
+        "description": "Not started"
+      },
+      "startTimestamp": 1784752200,
+      "homeTeam": {
+        "id": 61637,
+        "name": "Austin FC",
+        "nameCode": "ATX",
+        "country": {
+          "alpha2": "us"
+        }
+      },
+      "awayTeam": {
+        "id": 63329,
+        "name": "Nashville SC",
+        "nameCode": "NSH",
+        "country": {
+          "alpha2": "us"
+        }
+      },
+      "homeScore": {},
+      "awayScore": {}
+    }
+  ]
+}

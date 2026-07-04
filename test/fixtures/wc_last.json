@@ -1,0 +1,635 @@
+{
+  "events": [
+    {
+      "id": 12000100,
+      "tournament": {
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        },
+        "category": {
+          "name": "World"
+        }
+      },
+      "roundInfo": {
+        "name": "Round of 32"
+      },
+      "status": {
+        "type": "finished",
+        "description": "Ended"
+      },
+      "startTimestamp": 1784007200,
+      "homeTeam": {
+        "id": 6000,
+        "name": "Argentina",
+        "nameCode": "ARG",
+        "country": {
+          "alpha2": "ar"
+        }
+      },
+      "awayTeam": {
+        "id": 6015,
+        "name": "Curacao",
+        "nameCode": "CUW",
+        "country": {
+          "alpha2": "cw"
+        }
+      },
+      "homeScore": {
+        "current": 4
+      },
+      "awayScore": {
+        "current": 1
+      }
+    },
+    {
+      "id": 12000101,
+      "tournament": {
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        },
+        "category": {
+          "name": "World"
+        }
+      },
+      "roundInfo": {
+        "name": "Round of 32"
+      },
+      "status": {
+        "type": "finished",
+        "description": "Ended"
+      },
+      "startTimestamp": 1784014400,
+      "homeTeam": {
+        "id": 6001,
+        "name": "Spain",
+        "nameCode": "ESP",
+        "country": {
+          "alpha2": "es"
+        }
+      },
+      "awayTeam": {
+        "id": 6012,
+        "name": "Croatia",
+        "nameCode": "CRO",
+        "country": {
+          "alpha2": "hr"
+        }
+      },
+      "homeScore": {
+        "current": 2
+      },
+      "awayScore": {
+        "current": 1
+      }
+    },
+    {
+      "id": 12000102,
+      "tournament": {
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        },
+        "category": {
+          "name": "World"
+        }
+      },
+      "roundInfo": {
+        "name": "Round of 32"
+      },
+      "status": {
+        "type": "finished",
+        "description": "Ended"
+      },
+      "startTimestamp": 1784021600,
+      "homeTeam": {
+        "id": 6002,
+        "name": "Brazil",
+        "nameCode": "BRA",
+        "country": {
+          "alpha2": "br"
+        }
+      },
+      "awayTeam": {
+        "id": 6013,
+        "name": "Norway",
+        "nameCode": "NOR",
+        "country": {
+          "alpha2": "no"
+        }
+      },
+      "homeScore": {
+        "current": 3
+      },
+      "awayScore": {
+        "current": 0
+      }
+    },
+    {
+      "id": 12000103,
+      "tournament": {
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        },
+        "category": {
+          "name": "World"
+        }
+      },
+      "roundInfo": {
+        "name": "Round of 32"
+      },
+      "status": {
+        "type": "finished",
+        "description": "Ended"
+      },
+      "startTimestamp": 1784028800,
+      "homeTeam": {
+        "id": 6003,
+        "name": "France",
+        "nameCode": "FRA",
+        "country": {
+          "alpha2": "fr"
+        }
+      },
+      "awayTeam": {
+        "id": 6014,
+        "name": "Senegal",
+        "nameCode": "SEN",
+        "country": {
+          "alpha2": "sn"
+        }
+      },
+      "homeScore": {
+        "current": 2
+      },
+      "awayScore": {
+        "current": 0
+      }
+    },
+    {
+      "id": 12000104,
+      "tournament": {
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        },
+        "category": {
+          "name": "World"
+        }
+      },
+      "roundInfo": {
+        "name": "Round of 16"
+      },
+      "status": {
+        "type": "finished",
+        "description": "Ended"
+      },
+      "startTimestamp": 1784036000,
+      "homeTeam": {
+        "id": 6000,
+        "name": "Argentina",
+        "nameCode": "ARG",
+        "country": {
+          "alpha2": "ar"
+        }
+      },
+      "awayTeam": {
+        "id": 6008,
+        "name": "Morocco",
+        "nameCode": "MAR",
+        "country": {
+          "alpha2": "ma"
+        }
+      },
+      "homeScore": {
+        "current": 3
+      },
+      "awayScore": {
+        "current": 1
+      }
+    },
+    {
+      "id": 12000105,
+      "tournament": {
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        },
+        "category": {
+          "name": "World"
+        }
+      },
+      "roundInfo": {
+        "name": "Round of 16"
+      },
+      "status": {
+        "type": "finished",
+        "description": "Ended"
+      },
+      "startTimestamp": 1784043200,
+      "homeTeam": {
+        "id": 6001,
+        "name": "Spain",
+        "nameCode": "ESP",
+        "country": {
+          "alpha2": "es"
+        }
+      },
+      "awayTeam": {
+        "id": 6011,
+        "name": "Japan",
+        "nameCode": "JPN",
+        "country": {
+          "alpha2": "jp"
+        }
+      },
+      "homeScore": {
+        "current": 3
+      },
+      "awayScore": {
+        "current": 0
+      }
+    },
+    {
+      "id": 12000106,
+      "tournament": {
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        },
+        "category": {
+          "name": "World"
+        }
+      },
+      "roundInfo": {
+        "name": "Round of 16"
+      },
+      "status": {
+        "type": "finished",
+        "description": "Ended"
+      },
+      "startTimestamp": 1784050400,
+      "homeTeam": {
+        "id": 6002,
+        "name": "Brazil",
+        "nameCode": "BRA",
+        "country": {
+          "alpha2": "br"
+        }
+      },
+      "awayTeam": {
+        "id": 6010,
+        "name": "Uruguay",
+        "nameCode": "URU",
+        "country": {
+          "alpha2": "uy"
+        }
+      },
+      "homeScore": {
+        "current": 2
+      },
+      "awayScore": {
+        "current": 1
+      }
+    },
+    {
+      "id": 12000107,
+      "tournament": {
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        },
+        "category": {
+          "name": "World"
+        }
+      },
+      "roundInfo": {
+        "name": "Round of 16"
+      },
+      "status": {
+        "type": "finished",
+        "description": "Ended"
+      },
+      "startTimestamp": 1784057600,
+      "homeTeam": {
+        "id": 6003,
+        "name": "France",
+        "nameCode": "FRA",
+        "country": {
+          "alpha2": "fr"
+        }
+      },
+      "awayTeam": {
+        "id": 6007,
+        "name": "Netherlands",
+        "nameCode": "NED",
+        "country": {
+          "alpha2": "nl"
+        }
+      },
+      "homeScore": {
+        "current": 2
+      },
+      "awayScore": {
+        "current": 1
+      }
+    },
+    {
+      "id": 12000108,
+      "tournament": {
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        },
+        "category": {
+          "name": "World"
+        }
+      },
+      "roundInfo": {
+        "name": "Quarterfinals"
+      },
+      "status": {
+        "type": "finished",
+        "description": "Ended"
+      },
+      "startTimestamp": 1784064800,
+      "homeTeam": {
+        "id": 6000,
+        "name": "Argentina",
+        "nameCode": "ARG",
+        "country": {
+          "alpha2": "ar"
+        }
+      },
+      "awayTeam": {
+        "id": 6004,
+        "name": "Germany",
+        "nameCode": "GER",
+        "country": {
+          "alpha2": "de"
+        }
+      },
+      "homeScore": {
+        "current": 2
+      },
+      "awayScore": {
+        "current": 0
+      }
+    },
+    {
+      "id": 12000109,
+      "tournament": {
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        },
+        "category": {
+          "name": "World"
+        }
+      },
+      "roundInfo": {
+        "name": "Quarterfinals"
+      },
+      "status": {
+        "type": "finished",
+        "description": "Ended"
+      },
+      "startTimestamp": 1784072000,
+      "homeTeam": {
+        "id": 6001,
+        "name": "Spain",
+        "nameCode": "ESP",
+        "country": {
+          "alpha2": "es"
+        }
+      },
+      "awayTeam": {
+        "id": 6005,
+        "name": "England",
+        "nameCode": "ENG",
+        "country": {
+          "alpha2": "gb"
+        }
+      },
+      "homeScore": {
+        "current": 2
+      },
+      "awayScore": {
+        "current": 0
+      }
+    },
+    {
+      "id": 12000110,
+      "tournament": {
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        },
+        "category": {
+          "name": "World"
+        }
+      },
+      "roundInfo": {
+        "name": "Quarterfinals"
+      },
+      "status": {
+        "type": "finished",
+        "description": "Ended"
+      },
+      "startTimestamp": 1784079200,
+      "homeTeam": {
+        "id": 6002,
+        "name": "Brazil",
+        "nameCode": "BRA",
+        "country": {
+          "alpha2": "br"
+        }
+      },
+      "awayTeam": {
+        "id": 6009,
+        "name": "Colombia",
+        "nameCode": "COL",
+        "country": {
+          "alpha2": "co"
+        }
+      },
+      "homeScore": {
+        "current": 2
+      },
+      "awayScore": {
+        "current": 1
+      }
+    },
+    {
+      "id": 12000111,
+      "tournament": {
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        },
+        "category": {
+          "name": "World"
+        }
+      },
+      "roundInfo": {
+        "name": "Quarterfinals"
+      },
+      "status": {
+        "type": "finished",
+        "description": "Ended"
+      },
+      "startTimestamp": 1784086400,
+      "homeTeam": {
+        "id": 6003,
+        "name": "France",
+        "nameCode": "FRA",
+        "country": {
+          "alpha2": "fr"
+        }
+      },
+      "awayTeam": {
+        "id": 6006,
+        "name": "Portugal",
+        "nameCode": "POR",
+        "country": {
+          "alpha2": "pt"
+        }
+      },
+      "homeScore": {
+        "current": 1
+      },
+      "awayScore": {
+        "current": 0
+      }
+    },
+    {
+      "id": 12000112,
+      "tournament": {
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        },
+        "category": {
+          "name": "World"
+        }
+      },
+      "roundInfo": {
+        "name": "Semifinals"
+      },
+      "status": {
+        "type": "finished",
+        "description": "Ended"
+      },
+      "startTimestamp": 1784093600,
+      "homeTeam": {
+        "id": 6000,
+        "name": "Argentina",
+        "nameCode": "ARG",
+        "country": {
+          "alpha2": "ar"
+        }
+      },
+      "awayTeam": {
+        "id": 6002,
+        "name": "Brazil",
+        "nameCode": "BRA",
+        "country": {
+          "alpha2": "br"
+        }
+      },
+      "homeScore": {
+        "current": 2
+      },
+      "awayScore": {
+        "current": 1
+      }
+    },
+    {
+      "id": 12000113,
+      "tournament": {
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        },
+        "category": {
+          "name": "World"
+        }
+      },
+      "roundInfo": {
+        "name": "Semifinals"
+      },
+      "status": {
+        "type": "finished",
+        "description": "Ended"
+      },
+      "startTimestamp": 1784100800,
+      "homeTeam": {
+        "id": 6001,
+        "name": "Spain",
+        "nameCode": "ESP",
+        "country": {
+          "alpha2": "es"
+        }
+      },
+      "awayTeam": {
+        "id": 6003,
+        "name": "France",
+        "nameCode": "FRA",
+        "country": {
+          "alpha2": "fr"
+        }
+      },
+      "homeScore": {
+        "current": 3
+      },
+      "awayScore": {
+        "current": 1
+      }
+    },
+    {
+      "id": 12000000,
+      "tournament": {
+        "name": "World Cup, Final",
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        },
+        "category": {
+          "name": "World"
+        }
+      },
+      "roundInfo": {
+        "name": "Final"
+      },
+      "status": {
+        "type": "inprogress",
+        "description": "2nd half"
+      },
+      "startTimestamp": 1784730600,
+      "homeTeam": {
+        "id": 6000,
+        "name": "Argentina",
+        "nameCode": "ARG",
+        "country": {
+          "alpha2": "ar"
+        }
+      },
+      "awayTeam": {
+        "id": 6001,
+        "name": "Spain",
+        "nameCode": "ESP",
+        "country": {
+          "alpha2": "es"
+        }
+      },
+      "homeScore": {
+        "current": 2
+      },
+      "awayScore": {
+        "current": 2
+      }
+    }
+  ]
+}

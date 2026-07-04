@@ -1,0 +1,1180 @@
+{
+  "standings": [
+    {
+      "name": "Group A",
+      "tournament": {
+        "name": "FIFA World Cup",
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        }
+      },
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": 4801,
+            "name": "Mexico",
+            "shortName": "Mexico",
+            "nameCode": "MEX",
+            "country": {
+              "alpha2": "mx",
+              "name": "Mexico"
+            }
+          },
+          "matches": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "scoresFor": 6,
+          "scoresAgainst": 1,
+          "points": 7,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 4802,
+            "name": "Croatia",
+            "shortName": "Croatia",
+            "nameCode": "CRO",
+            "country": {
+              "alpha2": "hr",
+              "name": "Croatia"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "scoresFor": 4,
+          "scoresAgainst": 2,
+          "points": 5,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 4803,
+            "name": "Ecuador",
+            "shortName": "Ecuador",
+            "nameCode": "ECU",
+            "country": {
+              "alpha2": "ec",
+              "name": "Ecuador"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "scoresFor": 3,
+          "scoresAgainst": 4,
+          "points": 3
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 4804,
+            "name": "Saudi Arabia",
+            "shortName": "Saudi Arabia",
+            "nameCode": "KSA",
+            "country": {
+              "alpha2": "sa",
+              "name": "Saudi Arabia"
+            }
+          },
+          "matches": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "scoresFor": 1,
+          "scoresAgainst": 7,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "name": "Group B",
+      "tournament": {
+        "name": "FIFA World Cup",
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        }
+      },
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": 4805,
+            "name": "Argentina",
+            "shortName": "Argentina",
+            "nameCode": "ARG",
+            "country": {
+              "alpha2": "ar",
+              "name": "Argentina"
+            }
+          },
+          "matches": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "scoresFor": 6,
+          "scoresAgainst": 1,
+          "points": 7,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 4806,
+            "name": "Poland",
+            "shortName": "Poland",
+            "nameCode": "POL",
+            "country": {
+              "alpha2": "pl",
+              "name": "Poland"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "scoresFor": 4,
+          "scoresAgainst": 2,
+          "points": 5,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 4807,
+            "name": "Australia",
+            "shortName": "Australia",
+            "nameCode": "AUS",
+            "country": {
+              "alpha2": "au",
+              "name": "Australia"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "scoresFor": 3,
+          "scoresAgainst": 4,
+          "points": 3
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 4808,
+            "name": "Uzbekistan",
+            "shortName": "Uzbekistan",
+            "nameCode": "UZB",
+            "country": {
+              "alpha2": "uz",
+              "name": "Uzbekistan"
+            }
+          },
+          "matches": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "scoresFor": 1,
+          "scoresAgainst": 7,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "name": "Group C",
+      "tournament": {
+        "name": "FIFA World Cup",
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        }
+      },
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": 4809,
+            "name": "France",
+            "shortName": "France",
+            "nameCode": "FRA",
+            "country": {
+              "alpha2": "fr",
+              "name": "France"
+            }
+          },
+          "matches": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "scoresFor": 6,
+          "scoresAgainst": 1,
+          "points": 7,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 4810,
+            "name": "Denmark",
+            "shortName": "Denmark",
+            "nameCode": "DEN",
+            "country": {
+              "alpha2": "dk",
+              "name": "Denmark"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "scoresFor": 4,
+          "scoresAgainst": 2,
+          "points": 5,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 4811,
+            "name": "Ivory Coast",
+            "shortName": "Ivory Coast",
+            "nameCode": "CIV",
+            "country": {
+              "alpha2": "ci",
+              "name": "Ivory Coast"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "scoresFor": 3,
+          "scoresAgainst": 4,
+          "points": 3
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 4812,
+            "name": "Panama",
+            "shortName": "Panama",
+            "nameCode": "PAN",
+            "country": {
+              "alpha2": "pa",
+              "name": "Panama"
+            }
+          },
+          "matches": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "scoresFor": 1,
+          "scoresAgainst": 7,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "name": "Group D",
+      "tournament": {
+        "name": "FIFA World Cup",
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        }
+      },
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": 4813,
+            "name": "USA",
+            "shortName": "USA",
+            "nameCode": "USA",
+            "country": {
+              "alpha2": "us",
+              "name": "USA"
+            }
+          },
+          "matches": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "scoresFor": 6,
+          "scoresAgainst": 1,
+          "points": 7,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 4814,
+            "name": "Serbia",
+            "shortName": "Serbia",
+            "nameCode": "SRB",
+            "country": {
+              "alpha2": "rs",
+              "name": "Serbia"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "scoresFor": 4,
+          "scoresAgainst": 2,
+          "points": 5,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 4815,
+            "name": "Egypt",
+            "shortName": "Egypt",
+            "nameCode": "EGY",
+            "country": {
+              "alpha2": "eg",
+              "name": "Egypt"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "scoresFor": 3,
+          "scoresAgainst": 4,
+          "points": 3
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 4816,
+            "name": "New Zealand",
+            "shortName": "New Zealand",
+            "nameCode": "NZL",
+            "country": {
+              "alpha2": "nz",
+              "name": "New Zealand"
+            }
+          },
+          "matches": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "scoresFor": 1,
+          "scoresAgainst": 7,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "name": "Group E",
+      "tournament": {
+        "name": "FIFA World Cup",
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        }
+      },
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": 4817,
+            "name": "Spain",
+            "shortName": "Spain",
+            "nameCode": "ESP",
+            "country": {
+              "alpha2": "es",
+              "name": "Spain"
+            }
+          },
+          "matches": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "scoresFor": 6,
+          "scoresAgainst": 1,
+          "points": 7,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 4818,
+            "name": "Switzerland",
+            "shortName": "Switzerland",
+            "nameCode": "SUI",
+            "country": {
+              "alpha2": "ch",
+              "name": "Switzerland"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "scoresFor": 4,
+          "scoresAgainst": 2,
+          "points": 5,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 4819,
+            "name": "Cameroon",
+            "shortName": "Cameroon",
+            "nameCode": "CMR",
+            "country": {
+              "alpha2": "cm",
+              "name": "Cameroon"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "scoresFor": 3,
+          "scoresAgainst": 4,
+          "points": 3
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 4820,
+            "name": "Jordan",
+            "shortName": "Jordan",
+            "nameCode": "JOR",
+            "country": {
+              "alpha2": "jo",
+              "name": "Jordan"
+            }
+          },
+          "matches": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "scoresFor": 1,
+          "scoresAgainst": 7,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "name": "Group F",
+      "tournament": {
+        "name": "FIFA World Cup",
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        }
+      },
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": 4821,
+            "name": "Canada",
+            "shortName": "Canada",
+            "nameCode": "CAN",
+            "country": {
+              "alpha2": "ca",
+              "name": "Canada"
+            }
+          },
+          "matches": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "scoresFor": 6,
+          "scoresAgainst": 1,
+          "points": 7,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 4822,
+            "name": "Uruguay",
+            "shortName": "Uruguay",
+            "nameCode": "URU",
+            "country": {
+              "alpha2": "uy",
+              "name": "Uruguay"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "scoresFor": 4,
+          "scoresAgainst": 2,
+          "points": 5,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 4823,
+            "name": "Nigeria",
+            "shortName": "Nigeria",
+            "nameCode": "NGA",
+            "country": {
+              "alpha2": "ng",
+              "name": "Nigeria"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "scoresFor": 3,
+          "scoresAgainst": 4,
+          "points": 3
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 4824,
+            "name": "Qatar",
+            "shortName": "Qatar",
+            "nameCode": "QAT",
+            "country": {
+              "alpha2": "qa",
+              "name": "Qatar"
+            }
+          },
+          "matches": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "scoresFor": 1,
+          "scoresAgainst": 7,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "name": "Group G",
+      "tournament": {
+        "name": "FIFA World Cup",
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        }
+      },
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": 4825,
+            "name": "Brazil",
+            "shortName": "Brazil",
+            "nameCode": "BRA",
+            "country": {
+              "alpha2": "br",
+              "name": "Brazil"
+            }
+          },
+          "matches": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "scoresFor": 6,
+          "scoresAgainst": 1,
+          "points": 7,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 4826,
+            "name": "Morocco",
+            "shortName": "Morocco",
+            "nameCode": "MAR",
+            "country": {
+              "alpha2": "ma",
+              "name": "Morocco"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "scoresFor": 4,
+          "scoresAgainst": 2,
+          "points": 5,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 4827,
+            "name": "Japan",
+            "shortName": "Japan",
+            "nameCode": "JPN",
+            "country": {
+              "alpha2": "jp",
+              "name": "Japan"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "scoresFor": 3,
+          "scoresAgainst": 4,
+          "points": 3
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 4828,
+            "name": "Norway",
+            "shortName": "Norway",
+            "nameCode": "NOR",
+            "country": {
+              "alpha2": "no",
+              "name": "Norway"
+            }
+          },
+          "matches": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "scoresFor": 1,
+          "scoresAgainst": 7,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "name": "Group H",
+      "tournament": {
+        "name": "FIFA World Cup",
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        }
+      },
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": 4829,
+            "name": "England",
+            "shortName": "England",
+            "nameCode": "ENG",
+            "country": {
+              "alpha2": "gb",
+              "name": "England"
+            }
+          },
+          "matches": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "scoresFor": 6,
+          "scoresAgainst": 1,
+          "points": 7,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 4830,
+            "name": "Netherlands",
+            "shortName": "Netherlands",
+            "nameCode": "NED",
+            "country": {
+              "alpha2": "nl",
+              "name": "Netherlands"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "scoresFor": 4,
+          "scoresAgainst": 2,
+          "points": 5,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 4831,
+            "name": "Ghana",
+            "shortName": "Ghana",
+            "nameCode": "GHA",
+            "country": {
+              "alpha2": "gh",
+              "name": "Ghana"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "scoresFor": 3,
+          "scoresAgainst": 4,
+          "points": 3
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 4832,
+            "name": "Curacao",
+            "shortName": "Curacao",
+            "nameCode": "CUW",
+            "country": {
+              "alpha2": "cw",
+              "name": "Curacao"
+            }
+          },
+          "matches": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "scoresFor": 1,
+          "scoresAgainst": 7,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "name": "Group I",
+      "tournament": {
+        "name": "FIFA World Cup",
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        }
+      },
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": 4833,
+            "name": "Portugal",
+            "shortName": "Portugal",
+            "nameCode": "POR",
+            "country": {
+              "alpha2": "pt",
+              "name": "Portugal"
+            }
+          },
+          "matches": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "scoresFor": 6,
+          "scoresAgainst": 1,
+          "points": 7,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 4834,
+            "name": "Colombia",
+            "shortName": "Colombia",
+            "nameCode": "COL",
+            "country": {
+              "alpha2": "co",
+              "name": "Colombia"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "scoresFor": 4,
+          "scoresAgainst": 2,
+          "points": 5,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 4835,
+            "name": "South Korea",
+            "shortName": "South Korea",
+            "nameCode": "KOR",
+            "country": {
+              "alpha2": "kr",
+              "name": "South Korea"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "scoresFor": 3,
+          "scoresAgainst": 4,
+          "points": 3
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 4836,
+            "name": "Costa Rica",
+            "shortName": "Costa Rica",
+            "nameCode": "CRC",
+            "country": {
+              "alpha2": "cr",
+              "name": "Costa Rica"
+            }
+          },
+          "matches": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "scoresFor": 1,
+          "scoresAgainst": 7,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "name": "Group J",
+      "tournament": {
+        "name": "FIFA World Cup",
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        }
+      },
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": 4837,
+            "name": "Germany",
+            "shortName": "Germany",
+            "nameCode": "GER",
+            "country": {
+              "alpha2": "de",
+              "name": "Germany"
+            }
+          },
+          "matches": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "scoresFor": 6,
+          "scoresAgainst": 1,
+          "points": 7,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 4838,
+            "name": "Senegal",
+            "shortName": "Senegal",
+            "nameCode": "SEN",
+            "country": {
+              "alpha2": "sn",
+              "name": "Senegal"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "scoresFor": 4,
+          "scoresAgainst": 2,
+          "points": 5,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 4839,
+            "name": "Iran",
+            "shortName": "Iran",
+            "nameCode": "IRN",
+            "country": {
+              "alpha2": "ir",
+              "name": "Iran"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "scoresFor": 3,
+          "scoresAgainst": 4,
+          "points": 3
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 4840,
+            "name": "Honduras",
+            "shortName": "Honduras",
+            "nameCode": "HON",
+            "country": {
+              "alpha2": "hn",
+              "name": "Honduras"
+            }
+          },
+          "matches": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "scoresFor": 1,
+          "scoresAgainst": 7,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "name": "Group K",
+      "tournament": {
+        "name": "FIFA World Cup",
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        }
+      },
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": 4841,
+            "name": "Paraguay",
+            "shortName": "Paraguay",
+            "nameCode": "PAR",
+            "country": {
+              "alpha2": "py",
+              "name": "Paraguay"
+            }
+          },
+          "matches": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "scoresFor": 6,
+          "scoresAgainst": 1,
+          "points": 7,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 4842,
+            "name": "Austria",
+            "shortName": "Austria",
+            "nameCode": "AUT",
+            "country": {
+              "alpha2": "at",
+              "name": "Austria"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "scoresFor": 4,
+          "scoresAgainst": 2,
+          "points": 5,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 4843,
+            "name": "Algeria",
+            "shortName": "Algeria",
+            "nameCode": "ALG",
+            "country": {
+              "alpha2": "dz",
+              "name": "Algeria"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "scoresFor": 3,
+          "scoresAgainst": 4,
+          "points": 3
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 4844,
+            "name": "Haiti",
+            "shortName": "Haiti",
+            "nameCode": "HAI",
+            "country": {
+              "alpha2": "ht",
+              "name": "Haiti"
+            }
+          },
+          "matches": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "scoresFor": 1,
+          "scoresAgainst": 7,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "name": "Group L",
+      "tournament": {
+        "name": "FIFA World Cup",
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        }
+      },
+      "rows": [
+        {
+          "position": 1,
+          "team": {
+            "id": 4845,
+            "name": "Belgium",
+            "shortName": "Belgium",
+            "nameCode": "BEL",
+            "country": {
+              "alpha2": "be",
+              "name": "Belgium"
+            }
+          },
+          "matches": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "scoresFor": 6,
+          "scoresAgainst": 1,
+          "points": 7,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 4846,
+            "name": "Tunisia",
+            "shortName": "Tunisia",
+            "nameCode": "TUN",
+            "country": {
+              "alpha2": "tn",
+              "name": "Tunisia"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "scoresFor": 4,
+          "scoresAgainst": 2,
+          "points": 5,
+          "promotion": {
+            "text": "Round of 32"
+          }
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 4847,
+            "name": "South Africa",
+            "shortName": "South Africa",
+            "nameCode": "RSA",
+            "country": {
+              "alpha2": "za",
+              "name": "South Africa"
+            }
+          },
+          "matches": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "scoresFor": 3,
+          "scoresAgainst": 4,
+          "points": 3
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 4848,
+            "name": "Cape Verde",
+            "shortName": "Cape Verde",
+            "nameCode": "CPV",
+            "country": {
+              "alpha2": "cv",
+              "name": "Cape Verde"
+            }
+          },
+          "matches": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "scoresFor": 1,
+          "scoresAgainst": 7,
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

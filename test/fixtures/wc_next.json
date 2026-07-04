@@ -1,0 +1,42 @@
+{
+  "events": [
+    {
+      "id": 12000115,
+      "tournament": {
+        "uniqueTournament": {
+          "id": 16,
+          "name": "FIFA World Cup"
+        },
+        "category": {
+          "name": "World"
+        }
+      },
+      "roundInfo": {
+        "name": "Match for 3rd place"
+      },
+      "status": {
+        "type": "notstarted",
+        "description": "Not started"
+      },
+      "startTimestamp": 1784644200,
+      "homeTeam": {
+        "id": 6002,
+        "name": "Brazil",
+        "nameCode": "BRA",
+        "country": {
+          "alpha2": "br"
+        }
+      },
+      "awayTeam": {
+        "id": 6003,
+        "name": "France",
+        "nameCode": "FRA",
+        "country": {
+          "alpha2": "fr"
+        }
+      },
+      "homeScore": {},
+      "awayScore": {}
+    }
+  ]
+}

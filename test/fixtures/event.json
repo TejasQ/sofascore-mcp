@@ -1,0 +1,49 @@
+{
+  "event": {
+    "id": 12000000,
+    "tournament": {
+      "name": "World Cup, Final",
+      "uniqueTournament": {
+        "id": 16,
+        "name": "FIFA World Cup"
+      },
+      "category": {
+        "name": "World"
+      }
+    },
+    "roundInfo": {
+      "name": "Final"
+    },
+    "status": {
+      "type": "inprogress",
+      "description": "2nd half"
+    },
+    "startTimestamp": 1784730600,
+    "homeTeam": {
+      "id": 6000,
+      "name": "Argentina",
+      "nameCode": "ARG",
+      "country": {
+        "alpha2": "ar"
+      }
+    },
+    "awayTeam": {
+      "id": 6001,
+      "name": "Spain",
+      "nameCode": "ESP",
+      "country": {
+        "alpha2": "es"
+      }
+    },
+    "homeScore": {
+      "current": 2
+    },
+    "awayScore": {
+      "current": 2
+    },
+    "season": {
+      "id": 72000,
+      "name": "World Cup 2026"
+    }
+  }
+}
