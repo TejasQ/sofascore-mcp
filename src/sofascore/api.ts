@@ -1,4 +1,5 @@
 import { SofaScoreClient } from "./client.js";
+import type { FootballApi } from "./provider.js";
 
 /**
  * Typed wrappers around the SofaScore REST endpoints we use. Responses are kept
@@ -76,8 +77,13 @@ export interface RawSeason {
   name?: string;
 }
 
-export class SofaScoreApi {
+export class SofaScoreApi implements FootballApi {
   constructor(private readonly client: SofaScoreClient) {}
+
+  /** Fetch a SofaScore image (relative path) server-side for the image proxy. */
+  image(path: string): Promise<{ body: ArrayBuffer; contentType: string }> {
+    return this.client.getBinary(path);
+  }
 
   scheduledFootball(date: string) {
     return this.client.get<{ events: RawEvent[] }>(

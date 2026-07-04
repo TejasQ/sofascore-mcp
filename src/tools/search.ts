@@ -1,11 +1,11 @@
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import type { SofaScoreApi } from "../sofascore/api.js";
+import type { FootballApi } from "../sofascore/provider.js";
 import { mapSearchResult } from "../sofascore/shape.js";
 import type { SearchData, SearchResult } from "../shared/shapes.js";
 import { toolError, widgetResult } from "./util.js";
 
-export function registerSearch(server: McpServer, api: SofaScoreApi) {
+export function registerSearch(server: McpServer, api: FootballApi) {
   server.registerTool(
     "search_football",
     {

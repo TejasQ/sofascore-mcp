@@ -1,11 +1,11 @@
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import type { SofaScoreApi } from "../sofascore/api.js";
+import type { FootballApi } from "../sofascore/provider.js";
 import { mapIncident, mapStatistics, matchStatus, teamRef, tournamentRef } from "../sofascore/shape.js";
 import type { Incident, MatchDetail, Stat } from "../shared/shapes.js";
 import { scoreline, toolError, widgetResult } from "./util.js";
 
-export function registerGetMatch(server: McpServer, api: SofaScoreApi) {
+export function registerGetMatch(server: McpServer, api: FootballApi) {
   server.registerTool(
     "get_match",
     {

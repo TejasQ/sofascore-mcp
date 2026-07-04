@@ -1,11 +1,11 @@
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import type { SofaScoreApi } from "../sofascore/api.js";
+import type { FootballApi } from "../sofascore/provider.js";
 import { buildWorldCup } from "../sofascore/worldcup.js";
 import type { WorldCupView } from "../shared/shapes.js";
 import { toolError, widgetResult } from "./util.js";
 
-export function registerWorldCup(server: McpServer, api: SofaScoreApi) {
+export function registerWorldCup(server: McpServer, api: FootballApi) {
   server.registerTool(
     "world_cup",
     {

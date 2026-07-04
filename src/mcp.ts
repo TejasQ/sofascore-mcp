@@ -1,5 +1,5 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import type { SofaScoreApi } from "./sofascore/api.js";
+import type { FootballApi } from "./sofascore/provider.js";
 import { registerResources } from "./resources.js";
 import { registerAllTools } from "./tools/index.js";
 
@@ -18,7 +18,7 @@ export const SERVER_INSTRUCTIONS = [
 ].join("\n");
 
 /** Create a fresh MCP server instance (one per request in stateless HTTP mode). */
-export function createMcpServer(api: SofaScoreApi): McpServer {
+export function createMcpServer(api: FootballApi): McpServer {
   const server = new McpServer(
     { name: "sofascore-mcp", version: "0.1.0" },
     {

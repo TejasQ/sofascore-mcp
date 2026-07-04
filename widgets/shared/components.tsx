@@ -189,10 +189,10 @@ function qualColor(text?: string): string | undefined {
   if (!text) return undefined;
   const t = text.toLowerCase();
   if (t.includes("relegation")) return "var(--live)";
-  if (t.includes("europa") || t.includes("conference")) return "var(--home)";
+  if (t.includes("europa") || t.includes("conference")) return "var(--success)";
   if (t.includes("champions") || t.includes("qualification") || t.includes("promotion") || t.includes("final") || t.includes("round"))
     return "var(--brand)";
-  return "var(--away)";
+  return "var(--amber)";
 }
 
 export function StandingsTable({ group }: { group: StandingsGroup }) {

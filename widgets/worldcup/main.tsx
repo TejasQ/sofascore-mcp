@@ -26,15 +26,16 @@ function Hero({ d }: { d: WorldCupData }) {
       className="sf-card"
       style={{
         marginBottom: 12,
-        background: "linear-gradient(135deg, #0b6b3a 0%, #0a3d62 55%, #111a2e 100%)",
+        background:
+          "linear-gradient(100deg, #7a1414 0%, #b3421a 42%, #6e2411 70%, #1a1109 100%)",
         border: "1px solid rgba(255,255,255,0.12)",
         color: "#fff",
       }}
     >
       <div style={{ display: "flex", alignItems: "center", gap: 14, padding: "18px 16px" }}>
-        <div style={{ fontSize: 40, filter: "drop-shadow(0 2px 6px rgba(0,0,0,.4))" }}>🏆</div>
+        <div style={{ fontSize: 40, filter: "drop-shadow(0 2px 6px rgba(0,0,0,.45))" }}>🏆</div>
         <div style={{ flex: 1, minWidth: 0 }}>
-          <div style={{ fontSize: 20, fontWeight: 900, letterSpacing: 0.2 }}>{d.tournament.name}</div>
+          <div style={{ fontSize: 20, fontWeight: 800, letterSpacing: "-0.01em" }}>{d.tournament.name}</div>
           <div style={{ opacity: 0.85, fontSize: 12, fontWeight: 600 }}>
             {d.seasonName}
             {d.tagline ? ` · ${d.tagline}` : ""}

@@ -1,4 +1,5 @@
-import type { SofaScoreApi, RawEvent, RawSeason } from "./api.js";
+import type { RawEvent, RawSeason } from "./api.js";
+import type { FootballApi } from "./provider.js";
 import type { BracketRound, MatchSummary, WorldCupData, WorldCupView } from "../shared/shapes.js";
 import { matchSummary, mapStandingsGroups } from "./shape.js";
 
@@ -44,7 +45,7 @@ function orderKnockout(rounds: BracketRound[]): BracketRound[] {
 
 /** Assemble the World Cup hub payload for the requested view. */
 export async function buildWorldCup(
-  api: SofaScoreApi,
+  api: FootballApi,
   view: WorldCupView,
 ): Promise<WorldCupData> {
   const { seasons } = await api.seasons(WORLD_CUP_ID);

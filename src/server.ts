@@ -26,6 +26,31 @@ app.get("/health", (_req, res) => {
   res.json({ ok: true, service: "sofascore-mcp", mock: process.env.SOFA_MOCK === "1" });
 });
 
+// Image proxy: the ChatGPT iframe can't load api.sofascore.com images directly
+// (Apps-sandbox CSP + SofaScore referer/403 checks), so widgets point crests at
+// typed routes on our own origin and we fetch them server-side. Only these known
+// shapes are proxied — no arbitrary upstream paths.
+const upstreamImage = (kind: string, id: string): string | undefined => {
+  if (kind === "team" && /^\d+$/.test(id)) return `/team/${id}/image`;
+  if (kind === "tournament" && /^\d+$/.test(id)) return `/unique-tournament/${id}/image`;
+  if (kind === "player" && /^\d+$/.test(id)) return `/player/${id}/image`;
+  if (kind === "flag" && /^[a-z]{2}$/i.test(id))
+    return `https://api.sofascore.com/api/img/flags/${id.toLowerCase()}.png`;
+  return undefined;
+};
+app.get("/img/:kind/:id", async (req: Request, res: Response) => {
+  const path = upstreamImage(req.params.kind, req.params.id);
+  if (!path) return res.status(400).send("bad image path");
+  try {
+    const { body, contentType } = await api.image(path);
+    res.setHeader("Content-Type", contentType);
+    res.setHeader("Cache-Control", "public, max-age=86400, immutable");
+    res.send(Buffer.from(body));
+  } catch {
+    res.status(502).send("image unavailable");
+  }
+});
+
 // Stateless Streamable HTTP: a fresh server + transport per request.
 app.post("/mcp", async (req: Request, res: Response) => {
   const server = createMcpServer(api);

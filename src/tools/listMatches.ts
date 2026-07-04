@@ -1,13 +1,13 @@
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import type { SofaScoreApi } from "../sofascore/api.js";
+import type { FootballApi } from "../sofascore/provider.js";
 import { groupByTournament } from "../sofascore/shape.js";
 import type { MatchesData } from "../shared/shapes.js";
 import { resolveTournamentId, toolError, widgetResult } from "./util.js";
 
 const today = () => new Date().toISOString().slice(0, 10);
 
-export function registerListMatches(server: McpServer, api: SofaScoreApi) {
+export function registerListMatches(server: McpServer, api: FootballApi) {
   server.registerTool(
     "list_matches",
     {

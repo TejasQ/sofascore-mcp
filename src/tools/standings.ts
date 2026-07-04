@@ -1,12 +1,12 @@
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import type { SofaScoreApi } from "../sofascore/api.js";
+import type { FootballApi } from "../sofascore/provider.js";
 import { mapStandingsGroups } from "../sofascore/shape.js";
 import { pickSeason, WORLD_CUP_ID } from "../sofascore/worldcup.js";
 import type { StandingsData } from "../shared/shapes.js";
 import { resolveTournamentId, toolError, widgetResult } from "./util.js";
 
-export function registerStandings(server: McpServer, api: SofaScoreApi) {
+export function registerStandings(server: McpServer, api: FootballApi) {
   server.registerTool(
     "get_standings",
     {

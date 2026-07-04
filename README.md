@@ -37,8 +37,11 @@ src/
   server.ts            Express + StreamableHTTPServerTransport (POST /mcp, /health)
   mcp.ts               McpServer factory: server instructions + resources + tools
   resources.ts         registers each built widget as a ui:// text/html+skybridge resource
-  sofascore/           API client (browser headers, TTL cache, injectable fetch),
-                       endpoint helpers, raw→structuredContent mappers, World Cup logic
+  sofascore/           data layer: SofaScore client (browser headers, TTL cache,
+                       optional proxy, server-side image fetch) + ESPN fallback
+                       source, both behind one FootballApi interface (provider.ts,
+                       fallback.ts, espn.ts); raw→structuredContent mappers, WC logic
+api/index.ts           Vercel serverless entry (re-exports the Express app)
   shared/shapes.ts     structuredContent types shared by server + widgets
   tools/               list_matches · get_match · get_standings · world_cup · search_football
 widgets/               React sources (built per-widget to one self-contained HTML)
@@ -50,6 +53,26 @@ test/fixtures/         demo SofaScore responses for offline runs
 Each widget is built by `vite` + `vite-plugin-singlefile` into a single
 `dist/widgets/<name>/index.html` (JS + CSS inlined), which is served verbatim as
 the skybridge resource — no separate asset host needed.
+
+### Images (why they route through this server)
+
+Team/tournament/player crests can't be loaded straight from `api.sofascore.com`
+inside the ChatGPT Apps sandbox: the iframe's CSP (`img-src`) blocks the host,
+and SofaScore itself 403s the referer-less cross-origin request. So the server
+exposes an **image proxy** and the widgets point at it instead:
+
+```
+GET /img/team/:id          → https://api.sofascore.com/api/v1/team/:id/image
+GET /img/tournament/:id     → …/unique-tournament/:id/image
+GET /img/player/:id         → …/player/:id/image
+GET /img/flag/:alpha2       → …/img/flags/:alpha2.png
+```
+
+Only these allow-listed shapes are proxied. `resources.ts` injects
+`window.__SOFA_BASE__` (from `PUBLIC_BASE_URL`) into each widget's `<head>`, and
+`widgets/shared/img.ts` builds `${__SOFA_BASE__}/img/...` URLs from it. If
+`PUBLIC_BASE_URL` is unset (e.g. local MCP Inspector) the widgets fall back to
+loading images directly from SofaScore.
 
 ## Run it
 
@@ -65,6 +88,23 @@ serve the bundled fixtures instead of the live API:
 SOFA_MOCK=1 npm run dev
 ```
 
+### Environment variables
+
+| Variable          | Purpose                                                                                                   |
+| ----------------- | --------------------------------------------------------------------------------------------------------- |
+| `PORT`            | HTTP port (default `3000`).                                                                                |
+| `SOFA_MOCK`       | `1` serves the bundled fixtures instead of the live API — no network needed.                              |
+| `PUBLIC_BASE_URL` | Public origin this server is reachable at (e.g. `https://sofa.example.com`). Needed for the image proxy so crests load inside the ChatGPT sandbox. On Vercel it defaults to the deployment URL. Unset elsewhere → widgets load images directly. |
+| `SOFA_PROXY`      | Outbound HTTP(S) forward proxy for **all** SofaScore fetches (data + images). Point at a residential / unblocked proxy to defeat the Varnish/IP block. Falls back to `HTTPS_PROXY`. |
+| `ESPN_ONLY`       | `1` skips SofaScore entirely and serves everything from the ESPN fallback. Handy on hosts where SofaScore is always blocked (avoids the per-request probe + cooldown). |
+
+```bash
+# Live, behind a proxy, with images proxied through this origin:
+PUBLIC_BASE_URL=https://sofa.example.com \
+SOFA_PROXY=http://user:pass@proxy-host:port \
+npm run dev
+```
+
 ### Add it to ChatGPT (Developer Mode)
 
 1. Expose the server over HTTPS (e.g. `ngrok http 3000`).
@@ -72,6 +112,29 @@ SOFA_MOCK=1 npm run dev
    connector pointing at `https://<your-tunnel>/mcp`.
 3. Ask: *"Show me the World Cup group standings"* or *"What football is live right now?"* —
    the matching widget renders inline.
+
+### Deploy to Vercel
+
+The repo is Vercel-ready: `api/index.ts` re-exports the Express app as a single
+serverless function and `vercel.json` rewrites every path to it.
+
+```bash
+vercel deploy        # first run links the project; prod: `vercel --prod`
+```
+
+- **Build** — `vercel.json`'s `buildCommand` runs `npm run build`, bundling the
+  five widget HTML files into `dist/widgets/`; `includeFiles` ships them with the
+  function (the resource loader also resolves them from `process.cwd()`).
+- **Base URL** — `PUBLIC_BASE_URL` defaults to the deployment's `VERCEL_URL`, so
+  the image proxy works with no extra config. Set it explicitly for a custom
+  domain.
+- **Data** — ESPN fallback means live data works immediately. To keep SofaScore
+  primary, add `SOFA_PROXY` in the Vercel project's Environment Variables; to
+  drop it, set `ESPN_ONLY=1`.
+- **Connector URL** — point ChatGPT at `https://<deployment>/mcp`.
+
+The function's `maxDuration` is 30s to cover ESPN's multi-league fan-out; the
+landing page at `/` is served statically from `public/`.
 
 ## Verify
 
@@ -91,10 +154,58 @@ npm run verify           # build + wiring smoke test + Playwright screenshots
 
 ## Note on data & this environment
 
-The live SofaScore API (`api.sofascore.com`) is used at runtime with browser-like
-headers. Some sandboxed/CI networks block that host — in those cases run with
-`SOFA_MOCK=1` (fixtures) or host the server on an unrestricted network; the app
-resolves the current World Cup season dynamically (it is not hardcoded), so live
-data flows automatically wherever the host is reachable.
+The primary source is the live SofaScore API (`api.sofascore.com`), used with
+browser-like headers. Its edge (Varnish) returns **403 to datacenter IPs and
+flagged TLS fingerprints regardless of headers** — so a cloud host, CI runner,
+or this sandbox often can't reach it. This is an egress-IP block, not a missing
+header.
+
+**So the server falls back to ESPN's public soccer API automatically.** Every
+data source sits behind one `FootballApi` interface; `FallbackApi` tries
+SofaScore first (honouring `SOFA_PROXY`) and, on any 403 / timeout / empty
+result, transparently serves the same request from ESPN — mapped into the exact
+same shapes, so tools and widgets never know the difference. ESPN is reachable
+from blocked networks, covers the **FIFA World Cup + the top-5 European leagues**,
+and needs no API key. Result: **live data flows out of the box**, no proxy
+required. Team crests come from `a.espncdn.com` via the same image proxy.
+
+Ways to control the source:
+
+1. **Default** — SofaScore → ESPN fallback. Just works anywhere.
+2. **`ESPN_ONLY=1`** — skip SofaScore entirely (best on always-blocked hosts).
+3. **`SOFA_PROXY=<url>`** — give SofaScore a residential / unblocked egress so it
+   stays primary (see below).
+4. **`SOFA_MOCK=1`** — bundled fixtures, fully offline (dev / tests / demos).
+
+The World Cup season resolves dynamically (not hardcoded).
+
+### Getting a proxy endpoint
+
+`SOFA_PROXY` takes a standard `http(s)://[user:pass@]host:port` URL. What you
+need is an IP SofaScore hasn't blocked — in practice a **residential** or
+**mobile** proxy (datacenter proxies are usually blocked too). Options:
+
+- **Managed residential proxy providers** — Bright Data, Oxylabs, Smartproxy,
+  IPRoyal, Soax, etc. Sign up, create an endpoint, and they give you a
+  `http://user:pass@gateway:port` URL. Paste it into `SOFA_PROXY`. Cheapest to
+  start; billed per GB (crest images are tiny, JSON is tiny — usage is low).
+- **Your own home/residential IP** — run the server on a machine at home, or
+  tunnel through one (e.g. a small box on a home connection running
+  [`ngrok`](https://ngrok.com) / [`tailscale`](https://tailscale.com) + a
+  forward proxy like [`tinyproxy`](https://tinyproxy.github.io/) or
+  [`squid`](http://www.squid-cache.org/)). Free if you already have the hardware.
+- **A cheap VPS on a residential-friendly ASP** — some VPS/edge providers hand
+  out IP ranges SofaScore doesn't block; try a `curl` from the box first (below).
+
+**Test any candidate before wiring it in:**
+
+```bash
+curl -x "http://user:pass@proxy-host:port" \
+  -H "User-Agent: Mozilla/5.0" -H "Referer: https://www.sofascore.com/" \
+  -o /dev/null -w "%{http_code}\n" \
+  https://api.sofascore.com/api/v1/sport/football/events/live
+```
+
+`200` → set that URL as `SOFA_PROXY`. `403` → that IP is blocked too; try another.
 
 Not affiliated with SofaScore; uses their public endpoints for informational use.

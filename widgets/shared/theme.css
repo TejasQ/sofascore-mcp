@@ -1,41 +1,50 @@
 /* SofaScore-flavored design system, shared by all widgets. Light + dark are
    driven by `data-theme` on <html>, set from window.openai.theme. */
 
+/* Brand accents are identical in both themes (from sofascore.com CSS). */
 :root {
-  --brand: #2fbf71;
-  --brand-2: #17a398;
-  --live: #ff3b30;
-  --home: #3b82f6;
-  --away: #f5a623;
-  --gold: #ffd35c;
+  --brand: #374df5; /* indigo primary accent */
+  --brand-2: #2c3ec4; /* hover / pressed */
+  --brand-tint: rgba(55, 77, 245, 0.15); /* highlight tint */
+  --live: #cb1818; /* live / error red */
+  --live-tint: rgba(203, 24, 24, 0.1);
+  --success: #15b168;
+  --amber: #c7921f;
+  --home: #374df5;
+  --away: #c7921f;
+  --gold: #f5c451;
 }
 
+/* Dark is the default surface set. */
+:root,
 :root[data-theme="dark"] {
-  --bg: #0b1220;
-  --bg-2: #0e1526;
-  --card: #131c30;
-  --card-2: #1b2540;
-  --elev: #182236;
-  --border: rgba(255, 255, 255, 0.09);
-  --border-strong: rgba(255, 255, 255, 0.16);
-  --text: #eaf0f8;
-  --muted: #90a0b7;
-  --faint: #62708a;
-  --shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+  --bg: #0e0f13; /* near-black page */
+  --bg-2: #17181d;
+  --card: #17181d; /* card / row surface */
+  --card-2: #1c1e24; /* raised / hover surface */
+  --elev: #1c1e24;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.14);
+  --text: #ffffff;
+  --muted: rgba(255, 255, 255, 0.7);
+  --faint: rgba(255, 255, 255, 0.45);
+  --hover: rgba(255, 255, 255, 0.04);
+  --shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
 }
 
 :root[data-theme="light"] {
-  --bg: #eef1f5;
-  --bg-2: #e7ebf1;
+  --bg: #edf1f6; /* surface s0 */
+  --bg-2: #e4e9f0;
   --card: #ffffff;
-  --card-2: #f5f7fa;
+  --card-2: #f4f6f9;
   --elev: #ffffff;
-  --border: rgba(15, 23, 42, 0.1);
-  --border-strong: rgba(15, 23, 42, 0.18);
-  --text: #0b1220;
-  --muted: #5b6b82;
-  --faint: #8a99ad;
-  --shadow: 0 6px 20px rgba(15, 23, 42, 0.1);
+  --border: rgba(34, 34, 38, 0.12);
+  --border-strong: rgba(34, 34, 38, 0.18);
+  --text: #222226;
+  --muted: rgba(34, 34, 38, 0.7);
+  --faint: rgba(34, 34, 38, 0.45);
+  --hover: rgba(34, 34, 38, 0.04);
+  --shadow: 0 6px 20px rgba(34, 34, 38, 0.1);
 }
 
 * {
@@ -49,8 +58,7 @@ body {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif;
+  font-family: -apple-system, "Segoe UI", Roboto, Inter, system-ui, sans-serif;
   color: var(--text);
   background: transparent;
   -webkit-font-smoothing: antialiased;
@@ -68,7 +76,7 @@ body {
 .sf-card {
   background: var(--card);
   border: 1px solid var(--border);
-  border-radius: 16px;
+  border-radius: 12px;
   box-shadow: var(--shadow);
   overflow: hidden;
 }
@@ -97,8 +105,8 @@ body {
 
 /* ---- Crest ---- */
 .sf-crest {
-  width: 28px;
-  height: 28px;
+  width: 26px;
+  height: 26px;
   border-radius: 6px;
   display: inline-flex;
   align-items: center;
@@ -129,7 +137,7 @@ body {
   grid-template-columns: 1fr auto;
   gap: 8px;
   align-items: center;
-  padding: 10px 14px;
+  padding: 8px 14px;
   cursor: pointer;
   border-bottom: 1px solid var(--border);
   transition: background 0.12s ease;
@@ -138,7 +146,7 @@ body {
   border-bottom: none;
 }
 .sf-match:hover {
-  background: var(--card-2);
+  background: var(--hover);
 }
 .sf-teams {
   display: flex;
@@ -170,12 +178,22 @@ body {
   font-variant-numeric: tabular-nums;
 }
 .sf-score .sf-num {
-  font-weight: 800;
+  font-weight: 700;
   font-size: 15px;
   min-width: 16px;
   text-align: right;
+  letter-spacing: -0.01em;
 }
 .sf-score .sf-num.dim {
+  color: var(--muted);
+  font-weight: 600;
+}
+.sf-num {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  font-variant-numeric: tabular-nums;
+}
+.sf-num.dim {
   color: var(--muted);
   font-weight: 600;
 }
@@ -204,18 +222,18 @@ body {
   border-radius: 50%;
   background: var(--live);
   display: inline-block;
-  box-shadow: 0 0 0 0 rgba(255, 59, 48, 0.6);
+  box-shadow: 0 0 0 0 rgba(203, 24, 24, 0.6);
   animation: sf-pulse 1.4s infinite;
 }
 @keyframes sf-pulse {
   0% {
-    box-shadow: 0 0 0 0 rgba(255, 59, 48, 0.55);
+    box-shadow: 0 0 0 0 rgba(203, 24, 24, 0.55);
   }
   70% {
-    box-shadow: 0 0 0 7px rgba(255, 59, 48, 0);
+    box-shadow: 0 0 0 7px rgba(203, 24, 24, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(255, 59, 48, 0);
+    box-shadow: 0 0 0 0 rgba(203, 24, 24, 0);
   }
 }
 
@@ -238,7 +256,7 @@ body {
   border-color: transparent;
 }
 .sf-pill.brand {
-  color: #04150d;
+  color: #fff;
   background: var(--brand);
   border-color: transparent;
 }
@@ -267,9 +285,15 @@ body {
   cursor: pointer;
   transition: all 0.12s ease;
 }
+.sf-tab:hover {
+  color: var(--text);
+}
 .sf-tab.active {
   background: var(--brand);
-  color: #04150d;
+  color: #fff;
+}
+.sf-tab.active:hover {
+  color: #fff;
 }
 
 /* ---- Stat bars ---- */
